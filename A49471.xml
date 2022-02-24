@@ -1,0 +1,919 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached before the King at White-Hall, March 18, 1665/6 by ... B. Lord Bishop of Lincoln.</title>
+            <author>Laney, Benjamin, 1591-1675.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1666</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 48 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A49471</idno>
+            <idno type="STC">Wing L349</idno>
+            <idno type="STC">ESTC R6221</idno>
+            <idno type="EEBO-CITATION">13088658</idno>
+            <idno type="OCLC">ocm 13088658</idno>
+            <idno type="VID">97328</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A49471)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 97328)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 744:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached before the King at White-Hall, March 18, 1665/6 by ... B. Lord Bishop of Lincoln.</title>
+                  <author>Laney, Benjamin, 1591-1675.</author>
+               </titleStmt>
+               <extent>[2], 36 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Timothy Garthwait,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1666.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Marginal notes.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Thessalonians, 1st, IV, 2 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:97328:1"/>
+            <p>A SERMON Preached before the KING At <hi>White-Hall, March</hi>
+18. 1665/6.</p>
+            <p>By the Right Reverend Father in God. <hi>B.</hi> Lord Biſhop of
+<hi>Lincoln.</hi>
+            </p>
+            <p>
+               <hi>Publiſhed by His Majeſties Special Command.</hi>
+            </p>
+            <figure>
+               <figDesc>printer's device of Timothy Garthwait</figDesc>
+               <head>C R</head>
+            </figure>
+            <p>
+               <hi>London,</hi> Printed for <hi>Timothy Garthwait,</hi> 1666.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:97328:2"/>
+            <pb n="1" facs="tcp:97328:2"/>
+            <head> 
+               <q>
+                  <bibl>1 Theſſ. 4. Ver. II.</bibl> 
+                  <p>—And to do your own buſineſs.</p>
+               </q> 
+            </head>
+            <div type="introduction">
+               <p>
+                  <seg rend="decorInit">T</seg>HE whole Verſe, whereof theſe words are a part, is an
+Exhorta<g ref="char:EOLhyphen"/>tion to the ſtudy of Two Leſ<g ref="char:EOLhyphen"/>ſons; One for <hi>Quiet,</hi> the
+other for <hi>Buſineſs: That ye ſtudy to be quiet,</hi> and to <hi>do
+your own buſineſs.</hi>
+               </p>
+               <p>Of the former, the laſt time I had the ho<g ref="char:EOLhyphen"/>nor to be called to
+this Service, we treated par<g ref="char:EOLhyphen"/>ticularly; and it was a point well worthy our care
+and ſtudy. But the Leſſon we are now to learn, ſeems not much to
+deſerve or need it.</p>
+               <p>I have not (I confeſs) ſought far for a Text, but took that
+which came next to hand. Nor doth the Text put you to ſeek far what you are
+to do; It is but your own buſineſs. In both reſpects it may be thought
+unfit for this Audience, which is not of that quality to be entertained with no
+better Proviſion than what comes next to hand; and eſpecially, if 
+<pb n="2" facs="tcp:97328:3"/>that ſhould prove plain and homely, as this is, <hi>To do
+our own buſineſs;</hi> and as it follows, <hi>To work with our own
+hands:</hi> This is but a kind of <hi>Mechanical</hi> Doctrine; and what
+ſhould that do here in <hi>Court?</hi>
+               </p>
+               <p>Not to leave my ſelf and the Text under this prejudice; That I
+ſought no farther for it, was not of eaſineſs or neglect, but Choice;
+Becauſe I found it not only in conjunction and company with the excellent
+Study of <hi>Quiet,</hi> to which any kind of retainer at large might deſerve
+reſpect; but alſo, Becauſe I ſaw it ſet by the Apoſtle, in a place
+of near and intimate relation, a <hi>Principle</hi> and Foundation to it. The
+next way to be <hi>quiet</hi> abroad, is to be <hi>buſie</hi> at home. And
+though it be but plain Doctrine, 'tis never the worſe for that uſe; for
+Foundations are beſt, when plaineſt. It is no<g ref="char:EOLhyphen"/>ted as a cauſe why men make
+little proficien<g ref="char:EOLhyphen"/>cy in Arts and Sciences, that the Principles and Elements are
+not ſo well ſtudied as they ſhould be. And the reaſon why <hi>they</hi>
+fall un<g ref="char:EOLhyphen"/>der that neglect, is, Becauſe none of the great things which the Art
+it ſelf promiſes, are ſeen in the Principles at firſt. And therefore
+<hi>Quin<g ref="char:EOLhyphen"/>tilian,</hi> that the Schollars of his Art might not be diſcouraged
+with the meanneſs of his Firſt<pb n="3" facs="tcp:97328:3"/>Elements, tells them, that
+<hi>Latent Fundamenta, conſpiciuntur aedificia;</hi> there is little to be
+ſeen in the Foundation, that lies hid under ground; all the beauty and
+luſter is in the Superſtructi<g ref="char:EOLunhyphen"/>on. This doing <hi>our own buſineſs,</hi>
+                  <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> is a practical principle,
+whereupon depends much of the buſineſs of our whole lives, and ſo hath
+the fate of other foundations, to be little ſeen and regarded; It lies low
+under ground, and we overlook it, as a thing not worthy any mans thought or
+care. But to give it the due, we muſt not look upon what it is in
+<hi>Sight,</hi> but what it is in <hi>vertue;</hi> a Principle and Foundation
+whereupon is built that, which is the deſire of all good men, the pub<g ref="char:EOLhyphen"/>like
+peace and quiet of the Church and King<g ref="char:EOLhyphen"/>dom. And then we may allow it to be good
+Doctrine which hath ſo good a Uſe. It is a good tree that brings forth good
+fruit.</p>
+               <p>But then you will ſay, It muſt be in <hi>ſeaſon</hi>
+too. Now the wiſe man tells us, <hi>There is a time for war,</hi> as well
+<hi>as a time for peace.</hi>
+                  <note place="margin">Eccleſ. 3.9.</note> And can
+it then be ſeaſonable again and again thus to importune the ſtudy of
+ſuch things as make for peace, at a time when we are all, and have cauſe to
+be in preparation for war? Indeed if it were ſuch a peace, as would weaken
+the<pb n="4" facs="tcp:97328:4"/>hands of any in the purſuit of that Juſt,
+Ne<g ref="char:EOLhyphen"/>ceſſary and <hi>Royal Expedition,</hi> it were a moſt
+un<g ref="char:EOLhyphen"/>ſeaſonable Soleciſm: But we muſt know, As there is a War that makes
+for Peace, ſo there is a Peace that makes for War. Unity among our ſelves,
+binds us cloſe together; we are the ſtronger for it. <hi>Vis unita
+fortior;</hi> in diviſions and diſcord, ſtrength is diſtracted and
+ſcatter<g ref="char:EOLhyphen"/>ed; <hi>Dum ſinguli pugnant, omnes vincuntur.</hi> Dome<g ref="char:EOLhyphen"/>ſtick
+Peace then, though it comes not out of the Artillery, is good Amunition for
+Warr: And it falls in well too, with the expreſs Let<g ref="char:EOLhyphen"/>ter and Doctrine of the
+Text, It is our own buſineſs. As it is the proper buſineſs of a
+<hi>King</hi> to protect His Subjects from the Inſolencies and Injuries of
+proud inſulting Neighbours; ſo it is the buſineſs of every good Subject
+too, to aſſiſt Him in it with their Lives and For<g ref="char:EOLhyphen"/>tunes. Whether
+therefore we ſeek for Peace at home, or have cauſe of War abroad, the duty
+of the Text is for us. We are doing our own buſineſs. But though it be a
+good Foundation to build on every way; yet, <hi>except the Lord build the
+houſe, their labour is but loſt that build.</hi> Let us therefore before we
+go farther in the work, go to him for a bleſsing upon it,
+<hi>&amp;c.</hi>
+               </p>
+               <q>
+                  <pb n="5" facs="tcp:97328:4"/>That ye ſtudy to do your own
+buſineſs.</q>
+               <p>I Take in the word <hi>(ſtudy,)</hi> being forc'd by the
+neceſſary conſtruction of Grammar and Reaſon. For an object without an
+<hi>act,</hi> imports nothing: to do our own buſineſs, may be as well a
+fault, as a duty; but if <hi>ſtudy</hi> be taken in, the ſenſe is certain
+and perfect, it is that wherein we ſhall do well to imploy our ſtu<g ref="char:EOLhyphen"/>dy. As
+<hi>we are to ſtudy to be quiet,</hi> ſo we are to <hi>ſtudy</hi> alſo
+<hi>to do our own buſineſs.</hi>
+               </p>
+               <p>The words will bear two ſenſes; as there are two ſorts of
+offenders about buſineſs, <hi>nihil a<g ref="char:EOLhyphen"/>gentes,</hi> and <hi>aliud
+agentes,</hi> And in the words of the Apoſtle,
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, and
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the <hi>idle that work not at
+all,</hi> and <hi>the buſie-bodies;</hi>
+                  <note place="margin">2 Theſ.
+3.11.</note> ſo we tranſlate <gap reason="foreign" resp="#OXF" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>:
+The Text will reach them both, for either it ſets every one a<g ref="char:EOLhyphen"/>work, to find
+himſelf ſome buſineſs, or it re<g ref="char:EOLhyphen"/>ſtrains and confines him to that
+which is his own.</p>
+               <p>The former againſt <hi>Idleneſs,</hi> is a good leſ<g ref="char:EOLhyphen"/>ſon,
+that, to awaken the lazy ſluggard out of his dead ſleep; for, they are, as
+St. <hi>Paul</hi> ſpeaks of his idle wanton widows, <hi>dead while they
+live.</hi>
+                  <note place="margin">1 Tim. 5.6.</note> There is no more life in an
+idle man, then in an <hi>Idol-god, that hath eyes and ſee not, ears and hear
+not;</hi> but the <hi>other</hi> ſenſe ſeems to agree<pb n="6" facs="tcp:97328:5"/>better with the ſcope of the place, and will afford work enough for
+this time; the Apoſtle ſeems to have obſerved ſome among them too much
+buſied in matters that brought trouble and diſquiet to themſelves and
+others; for remedie whereof he enjoins them to look to their own
+buſineſs.</p>
+               <p>But how their own? For it may be a fault, and a great one too,
+ſo to do our own buſi<g ref="char:EOLhyphen"/>neſs, as not to regard what becomes of o<g ref="char:EOLhyphen"/>thers;
+that if our own turns be ſerv'd, and we get, no matter who loſes. This is
+deſer<g ref="char:EOLhyphen"/>vedly forbidden by our Apoſtle himſelf to the <hi>Philippians,
+chap.</hi> 2. <hi>ver.</hi> 4. <hi>Look not eve<g ref="char:EOLhyphen"/>ry man on his own things, but
+every man alſo on the things of others.</hi> And in the 21. <hi>v.</hi>
+complains of it too, that every one ſeeks <hi>his own,</hi> and not the
+things which are <hi>Jeſus Chriſts.</hi> But our own here, and our own
+there, are two different things: That which he blames there, is our own of
+<hi>intereſt; there</hi> may be too much of our own in that: but that which
+he commands here, is our own of <hi>duty</hi> and office. In this it muſt be
+ſo much our own, that it muſt be none but our own. Having reduced the words
+to their proper genuine ſenſe, in this leſſon there will fall to be
+learned theſe parti<g ref="char:EOLhyphen"/>culars.</p>
+               <p>
+                  <pb n="7" facs="tcp:97328:5"/> 
+                  <list>
+                     <item>1. That, there is and ought to be a proprie<g ref="char:EOLhyphen"/>ty in
+buſineſs; that to every one there be<g ref="char:EOLhyphen"/>longs ſomething that he may properly
+call his own.</item>
+                     <item>2. The Obligation of Duty and Religion, to confine
+himſelf to that which is his own.</item>
+                     <item>3. The Operation it hath had in the World upon our Quiet
+or Diſquiet.</item>
+                     <item>4. From theſe is inferr'd a Neceſsity to Study it;
+<hi>That ye ſtudy to do your own buſineſs.</hi>
+                     </item>
+                  </list>
+               </p>
+            </div>
+            <div n="1" type="lesson">
+               <head>I.</head>
+               <p>
+                  <hi>Firſt,</hi> That there is a Propriety in Buſineſs.
+This muſt be laid for a ground; all the reſt elſe will fall to nothing.
+It will be no Reli<g ref="char:EOLhyphen"/>gion to keep it; no Sin to break it; no need to Study
+it.</p>
+               <p>That which S. <hi>Paul</hi> ſpake of the Doctrine of the
+Goſpel in general at <hi>Epheſus, A great door, and effectual was
+opened to him, and there were many Adverſaries;</hi>
+                  <note place="margin">1 Cor.
+16.9.</note> is true alſo of this par<g ref="char:EOLhyphen"/>ticular Doctrine of Propriety, It is a
+door o<g ref="char:EOLhyphen"/>pen to all wiſe and ſober men; yet it hath ma<g ref="char:EOLhyphen"/>ny Adverſaries.</p>
+               <p>There is a buſie humour in the world, to <hi>lay all
+common;</hi> and it is grown to be a <hi>Sect</hi> of Religion; yea, more than
+one; as many as there are kinds of Propriety, ſo many Sects endeavour to
+fling down the Incloſures.</p>
+               <p>
+                  <pb n="8" facs="tcp:97328:6"/>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> As firſt, There is a
+<hi>Propriety in Goods and Poſſeſsions;</hi> and againſt this, there
+riſes a Sect of <hi>Levellers,</hi> who tell us from the Pſalmiſt,
+<hi>The Heavens are the Lords; but the Earth hath he given to the Children of
+men:</hi>
+                  <note place="margin">Pſa. 115.16.</note> That to which e<g ref="char:EOLhyphen"/>very man hath
+a Right by the Gift of God, the Pride and Covetouſneſs of a few have
+en<g ref="char:EOLhyphen"/>groſs'd, and made their own.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> There is a Right and <hi>Propriety of
+Reſpect and Honour</hi> due to ſome above others. Againſt this ariſes
+another <hi>Sect</hi> of Levellers they call <hi>Quakers,</hi> who refuſe to
+give Honour to whom Honour belongs: Though this looks like a Religion againſt
+good Manners only, or were but ſome Quarrel with the <hi>Grammarians</hi>
+againſt proper Names; the Miſchief of it lies deeper, and is of the
+ſpirit of <hi>Anabaptiſm,</hi> who oppoſe the very Powers and Dignities
+themſelves, which they deſpiſe in their Titles; for they cannot be ſo
+fooliſh, though ſimple enough, as to make a Religion of Names only. Theſe
+are dangerous Sects of Levellers both; but they lie not in our way. The Text
+toucheth only <hi>Levellers of Buſineſs,</hi> who think they are not to be
+barr'd the liberty of doing any thing that is good; <hi>bonum quo com<g ref="char:EOLhyphen"/>munius
+eò melius,</hi> and ought not to be impro<g ref="char:EOLhyphen"/>priate<pb n="9" facs="tcp:97328:6"/>to
+any. But that there is a Title and Propriety in ſome to buſineſs, wherein
+it is not permitted to every one to interpoſe, a ne<g ref="char:EOLhyphen"/>ceſsity in Nature
+requires. The World is re<g ref="char:EOLhyphen"/>pleniſhed with infinite variety of things, and a
+great deal of work is to be done to make them uſeful and ſerviceable to us.
+Now it is not poſsible for every one to do all, and hard<g ref="char:EOLhyphen"/>ly all, in any one
+thing, to gain the full uſe and benefit of it. But when the works are
+diſtributed ſeverally to ſome, the benefit may redound to all.</p>
+               <p>All the buſineſs of the world refers either to a
+<hi>Spiritual</hi> End, the good of the ſoul; or to a <hi>Temporal</hi> and
+Civil, our well-being while we live here upon earth: And to both theſe Ends
+God hath appointed and aſsigned parti<g ref="char:EOLhyphen"/>cular perſons; he did not leave them
+in com<g ref="char:EOLhyphen"/>mon. In the Temporal there is private buſi<g ref="char:EOLhyphen"/>neſs and publike. For
+private uſe, as in Fa<g ref="char:EOLhyphen"/>milies, there is the buſineſs of the Husband and
+Wife, the Parent and Children, the Ma<g ref="char:EOLhyphen"/>ſter and Servants: And out of Families,
+for private uſe likewiſe, there is the buſineſs of Phyſicians and
+Advocates, Husbandmen, Merchants and Mariners, Mechanicks and Labourers; and
+all theſe are of private na<g ref="char:EOLhyphen"/>ture,<pb n="10" facs="tcp:97328:7"/>though of common benefit.
+Then is there the publike buſineſs, by which all theſe are ordered and
+governed, and they are by S. <hi>Peter</hi> diſtinguiſhed to our hands, as
+that of the <hi>King as Supreme,</hi>
+                  <note place="margin">1 Pet. 2,13.</note> and
+of <hi>Governors ſent by him;</hi> and they are Magiſtrates and Judges for
+Peace. Captains and Commanders for War. And beſides theſe, there is the
+buſineſs of Mi<g ref="char:EOLhyphen"/>niſters and Aſsiſtants to the Supreme Power,
+Counſellors, Lawyers, Officers and Servants; and all theſe are for that
+temporal end.</p>
+               <p>And for the Spiritual, whoſe buſineſs refers to the
+ſoul, there is likewiſe a Propriety; as in <hi>Biſhops</hi> to
+<hi>Ordain,</hi> Inſtitute and Order the reſt of the Clergy ſpecially,
+and of the whole Dioceſs occaſionally, as the neceſsity of it ſhall
+require. Then is there the buſineſs of the Presbyters, in the ſeveral
+parts of the Dio<g ref="char:EOLhyphen"/>ceſs, in a more particular and immediate Cure and Charge, to
+be directed by, and accounta<g ref="char:EOLhyphen"/>ble to the Biſhop. There be others Diaconal and
+Miniſterial to both. And all together, Temporal and Spiritual, as ſeveral
+Members, make one Body; <hi>and every Member,</hi> ſaith the Apoſtle,
+<hi>hath not the ſame office,</hi> Rom. 12.4. God divided his Gifts to every
+one ſeverally as he will, 1 <hi>Cor.</hi> 12.11. he did not ſcatter them 
+<pb n="11" facs="tcp:97328:7"/>in common, but divide them, and all hold in ſeveralty.</p>
+               <p>And as that Severance and Propriety ſtands upon good
+Authority; ſo Authority was, no doubt, induc't upon reaſon of Profit and
+In<g ref="char:EOLhyphen"/>tereſt. It conduceth more to the common good, than Community it ſelf
+could.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, It brings Order into the common
+buſineſs of the world, and that takes away confuſion, which never did any
+thing well. <hi>To avoid fornication,</hi> 1 Cor. 7.2. <hi>let every man have
+his own wife.</hi> Upon the ſame Equity, to avoid the promiſcuous luſt
+and curioſity men have to mingle with any buſineſs, Let every man
+likewiſe have his own.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2. In reaſon all buſineſs will be beſt
+done too, by thoſe to whom they are peculiar and proper. <hi>Artifici in
+ſua arte credendum.</hi> Men are moſt truſted in their own Trades. We
+truſt the Lawyer with our Eſtates, the Phyſician with our Bodies. I ſay
+nothing of our Souls; we are ſo wiſe at that work, as to truſt none but
+our ſelves.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3. Yet thirdly, The nature and condition of
+the buſineſs it ſelf, may require it: Some are ſo difficult, that every
+one cannot do, though he would; and ſome are ſo mean, that every 
+<pb n="12" facs="tcp:97328:8"/>one would not do, though he could: and all are ſuch, as
+through the mercy of God we need not do if we will, unleſs it be our own
+buſineſs.</p>
+               <p>We are now faln upon the <hi>Second</hi> Part, that as every one
+hath ſome buſineſs that is his own, ſo Duty and Religion obligeth him
+to take upon him no buſineſs but his own.</p>
+            </div>
+            <div n="2" type="lesson">
+               <head>II.</head>
+               <p>THis Leſſon will not be ſo eaſily learned, as the
+former: all confinement of it ſelf ſeems uneaſie. He that hath no mind to
+go a<g ref="char:EOLhyphen"/>broad, would not be tied to ſtay at home. And he that cares for no
+buſineſs, will take it ill to be barr'd any. But this confinement
+beſides, nips the growth and encreaſe of good, where<g ref="char:EOLhyphen"/>of they think, more
+would be done if every one have free liberty to do it; and therefore it is
+juſt and reaſonable to allow any one a concurrent juriſdiction with
+others in any thing that is otherwiſe good, though that be to govern with the
+<hi>King,</hi> to pray &amp; preach, or what they pleaſe, with the
+<hi>Prieſt.</hi> And they have as much of propriety as any can have to
+buſineſs; yet even to theſe, they think any man may make a ſufficient
+title, that hath <hi>un<g ref="char:EOLhyphen"/>derſtanding</hi> to know what is to be done, as well 
+<pb n="13" facs="tcp:97328:8"/>as any other, and <hi>affection</hi> to do it, perhaps more
+then others. And all have <hi>right</hi> and in<g ref="char:EOLhyphen"/>tereſt in the publick,
+eſpecially that wherein Religion and the ſoul is concerned; how God may be
+beſt ſerved, and wherein his glory may be moſt promoted. Will not all
+theſe make a Title good enough to any buſineſs?</p>
+               <p>The Glory of GOD, indeed, is a high and over-ruling Title; if we
+do not ſet it on our own heads, as the manner is, to make Gods glory ſerve
+our own. Otherwiſe that, and the reſt are ſuch things, as all men of
+wiſ<g ref="char:EOLhyphen"/>dom or conſcience ſhould have regard to, in any buſineſs they
+undertake; provided yet it be their own. In that every one hath liberty to
+improve his underſtanding and knowledg for the beſt, as well for his own
+ſoul as the publick good: In that let the glory of God be the Star to guide
+him. But all <hi>theſe</hi> do not make the buſineſs ours; they are a
+good qua<g ref="char:EOLhyphen"/>lification in any for buſineſs, yet give no right or Title to it.
+Great knowledg and skill in the <hi>Laws</hi> will not ſet a man upon the
+Bench; nor of <hi>Divinity,</hi> in the Biſhops Chair; nor will the dexterous
+glib-gifted tongue put a man in<g ref="char:EOLhyphen"/>to the Pulpit. There muſt be beſides a
+Ti<g ref="char:EOLhyphen"/>tle and Commiſſion to make them ours.</p>
+               <p>
+                  <pb n="14" facs="tcp:97328:9"/>But muſt all the obligations we have to the
+<hi>Publick good,</hi> and to <hi>Gods honour,</hi> ſtoop to
+Com<g ref="char:EOLhyphen"/>miſſions, Titles and proprieties, which are but the creatures and
+conſtitutions of men?</p>
+               <p>To this queſtion, I anſwer in the words of <hi>Job,</hi>
+13.7. <hi>Will you ſpeak wickedly for God, and talk deceitfully for him?</hi>
+It is deceitful talking, to plead for God againſt himſelf; for though it
+ſhould be granted, that the ſorting of ſeveral employ<g ref="char:EOLhyphen"/>ments and functions
+have ſomething of <hi>man</hi> in them; yet the confirmation and approba<g ref="char:EOLhyphen"/>tion
+of <hi>God</hi> makes it <hi>his,</hi> and ſo divine: for as God hath founded
+a divine Moral law, upon the propriety of goods and poſſeſſions,
+<hi>Thou ſhalt not ſteal;</hi> yea, thou ſhalt not covet that which is
+anothers; and yet it comes not to be anothers, but by <hi>humane Laws:</hi> So
+though different ſtates of life and employ<g ref="char:EOLhyphen"/>ments have ſomewhat in them by
+diſpoſition of Law, or our own choice; yet upon them alſo is founded this
+moral duty, to keep with<g ref="char:EOLhyphen"/>in thoſe bounds: For though men laid the
+<hi>Land-marks,</hi> yet God commanded <hi>They ſhould not be removed,
+Deut.</hi> 19.14.</p>
+               <p>It is a kind of <hi>Burglary</hi> to break into ano<g ref="char:EOLhyphen"/>ther mans
+buſineſs, as well as into another mans houſe: or if you will not allow it
+to be<pb n="15" facs="tcp:97328:9"/>theft to have anothers buſineſs found with you, as
+it is to have anothers goods; it is as ill as theft in S. <hi>Peter's</hi>
+opinion. <hi>The Mur<g ref="char:EOLhyphen"/>therer, the Thief, the Evil-doer, the Buſie-body;</hi>
+there's a Meſſe of them, he puts them all alike together, 1 <hi>Pet.</hi>
+4.15.</p>
+               <p>To ſhut up this point, If the <hi>glory of God,</hi> and the
+<hi>publike Good,</hi> and ſuch like fair preten<g ref="char:EOLhyphen"/>ces, might let us looſe
+upon one anothers bu<g ref="char:EOLhyphen"/>ſineſs, it would quickly bring us round, where we
+were, to that confuſion and diſor<g ref="char:EOLhyphen"/>der, for remedy whereof, the Apoſtle
+added this Leſſon to the former. We ſhall never learn to be quiet well,
+unleſſe we learn alſo to keep within our own buſineſſe.</p>
+               <p>Yet I deny not, but that Diſcord and Diſ<g ref="char:EOLhyphen"/>ſention have
+other cauſes beſides; for, of <hi>Pride cometh contention,</hi> ſaith
+<hi>Solomon, Prov.</hi> 13.10. And <hi>from covetouſneſs,</hi> ſaith S.
+<hi>James, they deſire, and have not, James</hi> 4.2. It is true of other
+Luſts, Wrath, Revenge, Envy, Slander, and Curio ſity too, break the peace
+too often, and had need be bound to their good behaviour all<g ref="char:punc">▪</g> Yet we may
+obſerve it, That none of all theſe do actually any great miſchief that
+way, till they firſt bring it to this, till it draws us from our own
+ſtation, and fling us upon ſome<pb n="16" facs="tcp:97328:10"/>thing that is none of
+our own buſineſſe.</p>
+            </div>
+            <div n="3" type="lesson">
+               <head>III.</head>
+               <p>THE truth of this will more fully be ſeen in the
+<hi>Third</hi> Part, which comes next to be conſidered, The Operation it hath
+had in the world, by diſturbing the Peace and Quiet of it. <hi>Meum</hi> and
+<hi>Tuum</hi> hath not fill'd it with more Suits and Contentions in our Goods
+and Poſſeſſions, than it hath in the actions and buſineſſe of our
+lives, What is our own, and what is not our own.</p>
+               <p>To arraign all that are guilty of breaking this Rule in
+ſeveral kinds, would ask a long proceſs We will therefore take notice onely
+here of the attempts upon <hi>Government</hi> and <hi>Re<g ref="char:EOLhyphen"/>ligion,</hi> by
+thoſe whoſe buſineſſe it was not; be<g ref="char:EOLhyphen"/>cauſe the moſt and
+greateſt tempeſts and ſtorms in the Chriſtian World, have blown from
+that Coaſt.</p>
+               <p>The Wars and Combuſtions over all <hi>Italy</hi> and
+<hi>Germany,</hi> in the time of the Emperor, <hi>HENRY</hi> the 4th, had their
+beginning from hence. Pope <hi>Hildebrand, GREG.</hi> vij. not content with
+that which his Charge and Office of Biſhop allow'd him, began to mea<g ref="char:EOLhyphen"/>ſure
+out to himſelf a Greatneſs equal to the City he ſerv'd in, which had been
+<hi>Domicilium<pb n="17" facs="tcp:97328:10"/>Imperii;</hi> firſt brake in upon the
+Temporal Power, not heard of before in the Church, though then a Thouſand
+years old: Where, for the better ſupport of his Greatneſs, he en<g ref="char:EOLhyphen"/>deavoured
+to get into his Diſpoſing, all Church-Promotions; and for that end, call'd
+a <hi>Council</hi> at <hi>Rome</hi> of a few Biſhops for his pur<g ref="char:EOLhyphen"/>poſe, and
+there Decreed all <hi>Patronages</hi> and <hi>Donations</hi> by Lay-men,
+<hi>Princes</hi> not excepted, to be void, and of no effect in Law. What could
+be expected from ſo Unjuſt a Decree, but vehement Oppoſition, and a
+Bloody Di<g ref="char:EOLhyphen"/>ſpute? What troubles the ſame <hi>Patronage</hi> and
+<hi>Inveſtiture</hi> of <hi>Biſhops</hi> brought preſently after into
+this Kingdom, our Stories are full of. But the angry Pope, when he ſaw he
+could not quietly enjoy the Rights of the Crown, falls fiercely upon the Crown
+it ſelf, and would be Maſter of that too; and then he thought he ſhould
+Rule to purpoſe for the Catholique Cauſe. And for an Eſſay of this bold
+Uſurp'd Power, fairly <hi>Depoſed</hi> the Em<g ref="char:EOLhyphen"/>peror, and
+<hi>abſolv'd</hi> his Subjects of their Obe<g ref="char:EOLhyphen"/>dience This was certainly no
+Biſhops buſi<g ref="char:EOLhyphen"/>neſs. <hi>He</hi> may bleſs the Coronation, not
+di<g ref="char:EOLhyphen"/>ſpoſe of the Crown. <hi>He</hi> may pray for a Godly and Peaceable
+Government under it,<pb n="18" facs="tcp:97328:11"/>not make a prey of it. To abſolve
+Penitents of their Sins, is a Biſhops work; not of their Duties; that is not
+to remit their Sins, but to make them Sinners. Now what was likely to be the
+effect of all this, but that which hap<g ref="char:EOLhyphen"/>pened, Wars and Combuſtions over the
+whole Empire?</p>
+               <p>Though that Pope did not long out live that <hi>Feite</hi> of
+his, yet his Succeſſors and their Paraſites have ſo ply'd the Cauſe
+ever ſince that time, ſome directly, ſome indirectly, that the fire is
+not yet extinguiſhed. Now if the Pope met with ſome Princes that would not
+endure his <hi>Ranging</hi> thus in their Domi<g ref="char:EOLhyphen"/>nions, but thought it high time
+to quit his Miter, to ſecure their Crowns, he may thank himſelf for it.
+They may call it a <hi>Schiſm,</hi> if they pleaſe; but it is a Schiſm
+without a Sin. That word will hurt none ſo much as the Cauſers and Authors
+of it; For it is but reaſonable and juſt, That if the Pope would not know
+his buſineſs, that Princes ſhould know theirs. This is my Firſt
+Inſtance, of the Troubles that by this means brake into the whole Church.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> VVe need not go far from home for ano<g ref="char:EOLhyphen"/>ther.
+VVe were in a ſad caſe not long ſince<pb n="19" facs="tcp:97328:11"/>in this Kingdom
+by a Civil VVar. I meddle not with the fault, let that ſleep under the
+<hi>Act</hi> of <hi>Oblivion.</hi> VVe may, I truſt, without offence, enquire
+into the cauſe of it. VVhat were they doing that gave us that diſquiet?
+Look upon the <hi>Standard</hi> ſet up for the VVar; I mean, the moſt
+Execrable GOVENANT, <hi>Quomodo legis?</hi> how read you there? was it not
+medling with buſineſs was none of their own? They Covenanted firſt to
+extirpate the Government of the Church eſtabliſhed by Law. That Law, with
+hands lifted up to Heaven, they ſwore they would aboliſh. The Legiſlative
+Power we know in whom it is, to make or mend Laws; it was none of their
+buſineſs. In this they were certainly too bold with the Kings
+<hi>Scepter.</hi> At the next turn they take hold of his <hi>Sword</hi> too,
+and engage them<g ref="char:EOLhyphen"/>ſelves to a mutual Defence againſt all Oppo<g ref="char:EOLhyphen"/>ſition. This
+alſo was none of their buſineſs. For though a Self-defence may be allow'd
+as natural to all; it is againſt private, not pub<g ref="char:EOLhyphen"/>lique Oppoſition; and
+then too, as Divines generally reſolve, <hi>Cum moder amine inculpatae
+Tu<g ref="char:EOLhyphen"/>telae;</hi> never to the hurt of others; that is, Every man may defend
+himſelf <hi>clypeo,</hi> but not every one <hi>gladio.</hi> The Sword is the
+Kings,<pb n="20" facs="tcp:97328:12"/>and <hi>He that takes it</hi> from any hand but His,
+where God hath plac'd it, <hi>ſhall periſh with the Sword.</hi> In this the
+Covenanters, as ill as they like Biſhops, would be, in the Apoſtles
+phraſe, <gap reason="foreign" resp="#OXF" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,<note place="margin">1
+Pet. 4.15.</note> the worſt ſort of Biſhops, that is, medlers in
+buſineſs was none of their own. The <hi>Worſhippers</hi> of the Covenant
+have therefore been well dealt with, as the wor<g ref="char:EOLhyphen"/>ſhippers of the <hi>Golden
+Calf</hi> were by <hi>Moſes, Exod.</hi> 32.20. As he made them drink that,
+ſo have they been made to eat this; though ſome of them be found of ſo
+fooliſhly di<g ref="char:EOLhyphen"/>ſtempered ſtomacks, that they chuſe rather to part with
+that which is their own, than re<g ref="char:EOLhyphen"/>nounce a <hi>Buſineſs</hi> was none of
+their own. But the Covenant is paſt, and let it go. I wiſh for quiet
+ſake, we may never hear of the like a<g ref="char:EOLhyphen"/>gain.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> This was tranſient: But there ſtill
+remains a permanent and habitual Diſturbance of our Peace, in the multitude
+and ſwarms of SECTS and Factions in Religion, to which it is na<g ref="char:EOLhyphen"/>turally and
+inſeparably inherent: An incu<g ref="char:EOLhyphen"/>rable miſchief; like the <hi>Leproſie</hi>
+on the walls, that could not be cleanſed, but by pulling down the Houſe.
+From theſe we have felt al<g ref="char:EOLhyphen"/>ready but too much, and have cauſe yet to fear
+more.</p>
+               <p>
+                  <pb n="21" facs="tcp:97328:12"/>But can we charge them with doing a
+bu<g ref="char:EOLhyphen"/>ſineſs is none of their own? Can any thing be more properly our own
+buſineſs, than the <hi>care of our ſouls,</hi> and to <hi>ſerve God in
+the b<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſt manner that our
+underſtandings and Conſciences ſhall direct us?</hi>
+               </p>
+               <p>They are miſtaken that think the Charge lies upon this
+iſſue, what every man may do for himſelf and his own ſalvation. He may
+without queſtion do very much, for he may keeep all Gods Commandments, if he
+can; and when he cannot, he may be truly contrite and penitent for breaking
+them; and then he may aſſuredly believe his ſins ſhall be forgi<g ref="char:EOLhyphen"/>ven him
+by the merits and paſſion of our Lord Jeſus Chriſt. And again, He may
+ſerve and worſhip God with as much fervency and de<g ref="char:EOLhyphen"/>votion as he can and
+will; he may abound in Charity, Meekneſs, Humility, Patience and Temperance,
+and all other Chriſtian vertues: And <hi>ſo long as ye thus follow that
+which is good,</hi> ſaith S. <hi>Peter, who will harm you?</hi>
+                  <note place="margin">1 Pet. 3.13.</note> And I may ſay too, who can hinder you in all
+this? but if he makes himſelf a party in a <hi>Sect,</hi> if there be
+aſſembling together in companies, gather Congregations, incorporate in a
+Body, mo<g ref="char:EOLhyphen"/>dule Churches, give Laws of Doctrine and<pb n="22" facs="tcp:97328:13"/>Worſhip,
+ſet up Teachers and Leaders of their own; to all this they have as little
+Right, as they have need. A man may go far, ye ſee, in Religion, without
+troubling any; and if then they fall into ſome Error or Misbelief in
+Reli<g ref="char:EOLhyphen"/>gion, they ought not to be ſeverely handled; but when they betake
+themſelves to a <hi>Sect,</hi> that alters the caſe, it will then be
+compaſſion mi<g ref="char:EOLhyphen"/>ſtaken. A <hi>Locuſt</hi> alone is no ſuch perilous
+beaſt to be fear'd or regarded by any; but when they come in ſhoals and
+ſwarms, and cover the face of the earth, they are a plague to the Countrey
+where they light. So to look upon a <hi>Sectary</hi> ſingle, who out of
+ſimplicity and good meaning follows his Conſcience, our hearts ſhould be
+every whit as tender for them, as their Conſciences are. But if we look upon
+them in <hi>Company,</hi> they are as ill and dan<g ref="char:EOLhyphen"/>gerous as the company they
+are found in; and the danger of all popular Meetings, and Aſſo<g ref="char:EOLhyphen"/>ciations to
+a State, makes it the proper buſineſs of a King and his Miniſters to look
+to it, and to provide againſt it; wherein the care hath been taken,
+deſerves a juſt commendation.</p>
+               <p>And yet when I aſſert and refer this buſi<g ref="char:EOLhyphen"/>neſs to the
+KING, I look to be call'd to an account for that; For they take the boldneſs 
+<pb n="23" facs="tcp:97328:13"/>by way of recrimination, to turn the Text upon the King
+himſelf, <hi>That His Power is Civil, and Matters of the Church and Religion
+are Eccleſiaſtial,</hi> and ſo none of his buſineſs.</p>
+               <p>This is, I confeſs, too weighty a matter to be here thruſt
+into the corner of a Sermon; yet it will be neceſſary to ſay ſo much as
+may ſomewhat lay that loud clamour againſt it: For the <hi>Papiſts</hi>
+and <hi>Presbyterians</hi> both, how ill ſoever they may agree in other
+matters, hunt in couples againſt the Kings Power and <hi>SU<g ref="char:EOLhyphen"/>PREMACY.</hi> But
+as we denie not all to others in their places; ſo we claim not all for the
+King. If I ſhall but only now ſet out <hi>His</hi> Part in matters of the
+Church, it will appear ſufficiently, that he is <hi>Rectus in Curia,</hi>
+ſtands right in the Text, and takes not upon him buſineſs which is not
+his own.</p>
+               <p>We acknowledge the <hi>Civil</hi> and
+<hi>Eccleſiaſtical</hi> to be two diſtinct Powers; and though they may be
+both in one Perſon, and were origi<g ref="char:EOLhyphen"/>nally ſo; yet by the Divine, poſitive
+Laws both of <hi>Jews</hi> and <hi>Chriſtians,</hi> they were ſo
+di<g ref="char:EOLhyphen"/>ſtinguiſhed, that though one perſon were ca<g ref="char:EOLhyphen"/>pable of both, yet not
+without a lawful Ti<g ref="char:EOLhyphen"/>tle and Inveſtiture to either. I cannot there<g ref="char:EOLhyphen"/>fore think,
+That the King is an Eccleſiaſtical<pb n="24" facs="tcp:97328:14"/>Perſon, who was
+never Ordained or Conſe<g ref="char:EOLhyphen"/>crated to be ſo. Therefore when ſome Learn<g ref="char:EOLhyphen"/>ed in
+our Laws affirm, That the <hi>KING</hi> is Supreme Ordinary, and <hi>mixta
+perſona,</hi> it muſt be underſtood in ſome other ſenſe, and for
+ſome other purpoſe; for we do not find that he attempts the doing any thing
+that is the proper act of an Eccleſiaſtical Perſon.</p>
+               <p>Yes, they ſay, he claims by his Title of <hi>Supremacy,</hi>
+To govern <hi>all perſons in all cauſes, as well Eccleſiaſtical as
+Civil.</hi>
+               </p>
+               <p>We acknowledge this to be his juſt Title; but deny, that he
+doth any thing by it, which is not properly his own buſineſs, and in Right
+of his Crown. That he is the Fountain alſo of all Eccleſiaſtical
+Juriſdiction, though it be not expreſly in his Title, we acknowledge to be
+in his Power. But here I muſt crave leave to ſay ſomething of the nature
+and notion of JURISDICTION, though it ſhall taſt ſomewhat of the race and
+harſhneſs of the School; yet much of the Caſe depends upon it, and no
+little miſtakes there are about it.</p>
+               <p>It is agreed generally, That there is in the Church a Power of
+<hi>Orders,</hi> and a Power of <hi>Juriſdiction</hi> diſtinct; that is,
+for the <hi>Power,</hi> though not diſtinct in the <hi>object</hi> and matter
+<pb n="25" facs="tcp:97328:14"/>of that power; for that is
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he ſame in both: As, preaching
+Gods Word, adminiſtring the Sacraments, or the Cenſures of the Church, are
+of the power of <hi>Orders.</hi> And the putting all, or any of theſe in
+execution, is by a power of <hi>Juriſdiction.</hi> The former, as Divines
+diſtinguiſh, is a power in <hi>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>abitu,</hi> the other in <hi>actu.</hi> So that
+<hi>Juriſdiction</hi> is nothing elſe, <hi>but a power to do actually, what
+was potentially or habitu<g ref="char:EOLhyphen"/>ally receiv'd in Orders.</hi>
+               </p>
+               <p>I do not here take <hi>Juriſdiction</hi> in the ſtrict
+vulgar ſenſe, to be a power <hi>jus dicendi in<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>er partes litigantes</hi> only, as the word imports; but
+more largely, as it reacheth to any act of Or<g ref="char:EOLhyphen"/>der, without which it cannot
+lawfully be put in execution.</p>
+               <p>Now the Queſtion here will be, <hi>How a King can be the
+Fountain of the Eccleſiaſtical Ju<g ref="char:EOLhyphen"/>riſdiction us'd in his Dominions, who
+neither gives Orders himſelf, nor executes any; that is, hath nei<g ref="char:EOLhyphen"/>ther power
+of Orders, nor Power of Juriſdiction?</hi>
+               </p>
+               <p>My Anſwer to this Queſtion, is, That the Kings Power lies
+without both theſe, and is that which gives Commiſſion and Faculty to
+perſons ordained to execute their Orders within his Dominions. And the
+Reaſon, Ground and Neceſſity of that is, Becauſe the<pb n="26" facs="tcp:97328:15"/>Eccleſiaſtical Function cannot be put in exe<g ref="char:EOLhyphen"/>cution, but by ſuch
+wayes and means as are abſolutely and originally in the King, and in Right of
+his Crown. As firſt,</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> There muſt be ſome <hi>Subjects</hi> upon
+whom they may execute their Eccleſiaſtical Orders; now all the Subjects
+within His Dominions, are the Kings, who muſt of neceſſity loſe ſo
+much of the Right he had in them, as any o<g ref="char:EOLhyphen"/>ther aſſumes without Him. From
+hence grows his Right to order and conſtitute <hi>Dio<g ref="char:EOLhyphen"/>ceſſes</hi> and
+Pariſhes, and to ſet them their bounds and limits; that is, upon which of
+his Subjects, and how far he will allow them reſpectively to execute their
+Orders; for with<g ref="char:EOLhyphen"/>out thoſe bounds, it is not, nor is us'd to be taken for any
+part of their buſineſs.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> To the publique exerciſe of Religion the
+people muſt meet together. And all <hi>aſſemblings</hi> of people
+together, are abſolutely in the Po<g ref="char:EOLhyphen"/>wer of Princes; all States in all times
+have ever been jealous of them, and provided ſe<g ref="char:EOLhyphen"/>vere Laws againſt them; for
+it is impoſſible, be the pretences of Meeting never ſo fair, to govern
+people, and keep them quiet long, if they may have liberty to flock together at
+their pleaſures.</p>
+               <p>
+                  <pb n="27" facs="tcp:97328:15"/>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> When they are met
+together, there muſt be ſome to teach and <hi>inſtruct</hi> them. How
+dange<g ref="char:EOLhyphen"/>rous a thing is it promiſcuouſly to ſuffer <hi>Harangues</hi> and
+Orations to be made to the people by ſuch who poſsibly may be Trum<g ref="char:EOLhyphen"/>pets of
+Sedition; who by ſlandering the Go<g ref="char:EOLhyphen"/>vernment, and ſpeaking evil of
+Dignities, may inflame people to Rebellion? We have known ſuch things done.
+It is therefore ne<g ref="char:EOLhyphen"/>ceſſary, that none be allow'd that liberty to ſpeak to
+Multitudes aſſembled together, but ſuch with whom a King may ſafely
+truſt His people. And this gives Him a <hi>Right</hi> and Ca<g ref="char:EOLhyphen"/>pacity of
+<hi>Patronage</hi> and Nomination to Ec<g ref="char:EOLhyphen"/>cleſiaſtical Charges?</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="4"/> Leaſt the Doctrine which they teach the
+people, ſhould be ſuch as would amuſe them with Novelties, or occaſion
+Altercations, and foment Diviſions, or any way diſturb the Peace of the
+Kingdom; it is juſt and reaſon<g ref="char:EOLhyphen"/>able that the King ſhould confine them
+with<g ref="char:EOLhyphen"/>in the compaſs of certain <hi>Articles</hi> and Do<g ref="char:EOLhyphen"/>ctrines of
+<hi>Religion,</hi> which gives Him a Right to that, which in other reſpects,
+no doubt, be<g ref="char:EOLhyphen"/>longs to the care of the Church.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="5"/> But beſides the <hi>Articles of Peace,</hi>
+we find that the King in His Laws <hi>declares</hi> what is<pb n="28" facs="tcp:97328:16"/>
+                  <hi>Hereſie:</hi> That, if any thing, ſeems to be the pro<g ref="char:EOLhyphen"/>per work
+of the Eccleſiaſtical Power; yet even in that he is not out at his own
+Civil buſineſs. For ſeeing meer Eccleſiaſtical Cenſures are found
+not to be of ſufficient force to ſuppreſs dangerous and Heretical
+Opinions, without the uſe of the temporal Sword: Out of the care the King
+hath of the Lives and Eſtates of His Subjects, he will not let His Sword
+looſe to the will of others, who by declaring what they pleaſe to be
+Hereſie, may bring them in peril; He therefore confines them to ſuch
+caſes only, wherein He is content His Sword ſhould be made uſe of. This
+is all, and is that which muſt be allowed to be the proper buſineſs of
+the King to aſsign, how far, and in what caſes His Temporal Power and Sword
+ſhall be employ'd, and can be no invading the Eccleſiaſtical.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="6"/> But laſtly, Is not this the ſame wrong and
+illuſion we charge the <hi>Pope</hi> with, who in <hi>order</hi> to his
+Spiritual End, Uſurps the Temporal Power; ſo the King in order to his
+Tempo<g ref="char:EOLhyphen"/>ral Government, invades the Eccleſiaſti<g ref="char:EOLhyphen"/>cal?</p>
+               <p>No, the caſe is far different; If the <hi>Pope</hi> did order
+temporals by ſpiritual means only,<pb n="29" facs="tcp:97328:16"/>
+                  <hi>i e.
+Eccleſiaſtice,</hi> we had the leſs to ſay a<g ref="char:EOLhyphen"/>gainſt him; he is not
+out of the way of a Bi<g ref="char:EOLhyphen"/>ſhops power, though he ſhould abuſe it. But he for
+his ſpiritual end, uſurps temporal means, and takes upon him to diſpoſe
+of tem<g ref="char:EOLhyphen"/>poral Eſtates, that is none of his buſineſs. But the King in
+ordering Eccleſiaſtical things to His temporal end, uſes no
+Eccleſiaſtical means, but temporal onely, which are His proper
+buſineſs. He doth not excommunicate the Pope out of the Church, as the Pope
+would do him out of his temporal Domini<g ref="char:EOLhyphen"/>ons. But the King, if he ſee cauſe,
+may ba<g ref="char:EOLhyphen"/>niſh him and his Emiſſaries out of his King<g ref="char:EOLhyphen"/>dom. That cannot be
+deny'd to be the pro<g ref="char:EOLhyphen"/>per buſineſs of a King to ſecure and free his
+Kingdom from any thing that is deſtructive to it. Now if in all this the King
+moves not out of his own civil Sphere, To return to our <hi>Sectaries,</hi> who
+put us upon this digreſsion, they ſtill remain as we left them, guilty of
+doing much that is none of their own buſi<g ref="char:EOLhyphen"/>neſs.</p>
+               <p>What then is to be done with them? Ac<g ref="char:EOLhyphen"/>cording to a late Statute,
+a <hi>Mittimus</hi> (I think) might be made to ſend them to priſon; but the
+Apoſtle here deals more kindly with them,<pb n="30" facs="tcp:97328:17"/>and ſends them
+only to School to ſtudy bet<g ref="char:EOLhyphen"/>ter, which is my <hi>Fourth</hi> and laſt
+Point.</p>
+            </div>
+            <div n="4" type="lesson">
+               <head>IV.</head>
+               <p>THat ye <hi>ſtudy to do your own buſineſs.</hi> I will
+take no more out of the word <hi>Study,</hi> then what any one underſtands to
+be in it; A ſerious weighing and conſidering of the mat<g ref="char:EOLhyphen"/>ter; and there is
+need of it.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> The firſt thing the Student is to do before
+he takes in hand any matter of importance, is to ſet down and conſider
+whether it be his own buſineſs, or no; what <hi>Title</hi> he can make to
+it. It is utterly a fault amongſt us, to think that no part of our
+buſineſs, to conſider whether it be our buſineſs or no. If a
+<hi>qualm</hi> comes o<g ref="char:EOLhyphen"/>ver the ſtomack, that we begin to grow
+Go<g ref="char:EOLhyphen"/>vernment-ſick, or that the Ceremonies and Superſtitions of the Church
+offend us, pre<g ref="char:EOLhyphen"/>ſently without further diſpute, what ever comes of it, it is
+reſolved we will have a bet<g ref="char:EOLhyphen"/>ter Government, and a more pure and re<g ref="char:EOLhyphen"/>formed
+Church. That is commonly conclu<g ref="char:EOLhyphen"/>ded, before this be diſputed. No good
+<hi>Student</hi> will do ſo, conclude without premiſes. We muſt ſee
+whether it be our own buſineſs firſt, how we can <hi>derive a Title</hi>
+to it.</p>
+               <p>
+                  <pb n="31" facs="tcp:97328:17"/>We know, that <hi>Government</hi> and
+<hi>Religion</hi> come both originally from God; to which none can have Right,
+but they to whom God hath ſet over, and entruſted the Care and Charge of
+either: Our part is to ſee by what <hi>mean Con<g ref="char:EOLhyphen"/>veyance</hi> it comes from
+them to us. If we have nothing to ſhew that either of them have been
+particularly committed to us, we may ſafely and certainly conclude, it is
+none of our buſineſs.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> Every Student muſt obſerve a good me<g ref="char:EOLhyphen"/>thod
+in his ſtudy; whereof one Rule is, To proceed <hi>à manifeſtis ad
+obſcuriora:</hi> Let him be<g ref="char:EOLhyphen"/>gin at that which is without queſtion his own
+buſineſs. Hath he done all that belongs to his proper place and Function,
+which is certainly his own? Or hath he a Family at home to govern, that no
+doubt is his too? Are his Wife, and Children, and Servants well ordered, all as
+they ſhould be? <hi>S. Paul</hi> gives a charge to <hi>Timothy,</hi> not to
+ſet a Biſhop over the Church, who hath <hi>not governed his own Family
+well.</hi> Though ſome have not a Fa<g ref="char:EOLhyphen"/>mily without, yet every one hath a
+Family within, and a large one too: To rule his paſ<g ref="char:EOLhyphen"/>ſions and inordinate
+deſires only, asks a world of work, and they will find it ſo, when 
+<pb n="32" facs="tcp:97328:18"/>ever they ſet themſelves upon it.</p>
+               <p>What a prepoſterous method and courſe is it to hunt eagerly
+after Liberty from ſome imaginary Preſſure in Government, or ſome poor
+Ceremony in the Church, while in the mean time we are true ſlaves to ſome
+baſe, vile luſt within us. Here we ſhould begin to ſet our ſelves at
+liberty from our ſelves. And this the method of Charity requires, as well as
+the me<g ref="char:EOLhyphen"/>thod of Art. Charity begins always at home, at our own buſineſs.
+<hi>Tantumne ab re tua otii eſt tibi,</hi> was well ſaid in the Comedy,
+<hi>Aliena ut Cures?</hi> True Charity will find no leiſure for other's work,
+till her own be done. If this method were carefully obſerv'd, the world would
+be a great deal quieter than it is.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> Study will be therefore needful in this
+caſe, becauſe otherwiſe unconſidering men are apt to be carried away
+with the fair ſhew of Zeal and <hi>Religion</hi> in reforming others; they
+take it for a wrong from any that think not ſo of it: But by conſidering
+well, they will find they are diſappointed of that hope; for whatſoever
+ſets them on work, it cannot be true Religion, that is not contrary to it
+ſelf. All Students know, that One truth is not re<g ref="char:EOLhyphen"/>pugnant to another; nor one
+vertue to ano<g ref="char:EOLhyphen"/>ther.</p>
+               <p>
+                  <pb n="33" facs="tcp:97328:18"/>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> Religion doth not make men
+fools, to employ themſelves in that whereof there <hi>comes no good.</hi> All
+we do in other mens buſi<g ref="char:EOLhyphen"/>neſs, runs waſt. S. <hi>Paul,</hi> 2
+<hi>Theſ.</hi> 3.11. calls it idleneſs;
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, wor<g ref="char:EOLhyphen"/>king not at all; but are
+buſie-bodies; buſie, and yet not work at all. He ſays the ſame of his
+Widows of Pleaſure, 1 <hi>Tim.</hi> 5.3. That they were
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> and
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, idle, and buſie-bodies both.
+He thinks that not worthy to be call'd buſineſs, which is not our own.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> And yet, Secondly, There is a worſe mat<g ref="char:EOLhyphen"/>ter
+in it than idleneſs. It <hi>charges</hi> our <hi>account</hi> more than
+needs; and there is no Wiſdom in that; for when the Conſcience brings us in
+more Work than either God or Man particu<g ref="char:EOLhyphen"/>larly requires, though it be not our
+own of Duty here, it will be our own in Account hereafter: For the conſcience
+of doing it, makes it ours howſoever; and ſo guilty both of it, and all the
+miſchief that comes by it.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/>'Tis againſt <hi>Juſtice:</hi> That doth
+<hi>ſuum cui<g ref="char:EOLhyphen"/>que tribuere.</hi> Juſtice lets every man enjoy his own. He
+that takes upon him another mans buſineſs, becauſe he can do it better,
+(for that's the great pretence, to do that which is <hi>beſt</hi>) may as
+well take another mans Purſe, becauſe he<pb n="34" facs="tcp:97328:19"/>will ſpend
+the money better. I think we will hardly allow of that Juſtice.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="4"/>'Tis againſt <hi>Hope,</hi> that Chriſtian
+hope which ſupports us in all our Sufferings and Afflicti<g ref="char:EOLhyphen"/>ons. Whereof, when
+S. <hi>Peter,</hi> 1 <hi>Ep.</hi> 4. <hi>c.</hi> had for the conſolation of
+his Countrey-men, ſcattered abroad, pour'd out a plentiful mea<g ref="char:EOLhyphen"/>ſure,
+<hi>v</hi> 13, 14. <hi>Rejoice, in as much ye are parta<g ref="char:EOLhyphen"/>kers of Chriſts
+ſufferings, that when his glory ſhall be reveal'd, ye may be glad alſo
+with exceeding joy.</hi> Ver. 14. <hi>If ye be reproached for the Name of
+Chriſt, happy are ye; for the Spirit of Glory, and of God reſteth upon
+you.</hi> But preſently in the ve<g ref="char:EOLhyphen"/>ry next words, <hi>ver.</hi> 15. he puts in
+an excepti<g ref="char:EOLhyphen"/>on to buſie-bodies; they have no part or ſhare in that
+conſolation: <hi>Let none of you ſuf<g ref="char:EOLhyphen"/>fer as a Murtherer, or a Thi<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>f, or a Buſie-body.</hi> They have as
+little right to the comfort in ſuffering, as they had to the buſineſs for
+which they ſuffer.</p>
+               <p>Laſtly, As it diſappoints them of the hope of that Mercy
+from God; ſo it caſts them <hi>into the ſnare of the Devil.</hi> It was
+ſafe and wiſe Counſel the Apoſtle gives, <hi>Eph.</hi> 4.27. <hi>Not to
+give place to the Devil.</hi> He whoſe buſie thoughts carries him abroad,
+to pry into, and meddle in others buſineſs, gives place to the 
+<pb n="35" facs="tcp:97328:19"/>Devil in the mean time to enter in, ranſack and
+diſorder all at home, where there is none to reſiſt him: There is no
+better fence againſt the Devil, than this, <hi>ſi invenerit occupatos,</hi>
+if he finds us diligently employ'd at home in our own buſineſs.</p>
+               <p>If for all this, the medling Reformers of others would be
+thought the men of Religi<g ref="char:EOLhyphen"/>on, and of the <hi>firſt rate</hi> too; Let them
+know, That it is of ſuch a Religion as hath neither <hi>Prudence</hi> in it,
+nor <hi>Charity,</hi> nor <hi>Juſtice,</hi> nor <hi>Hope,</hi> nor
+<hi>Safety.</hi> And when he hath weigh'd all theſe miſchiefs that follow
+the breaking this Rule;</p>
+               <p>Let him in the next place, conſider the be<g ref="char:EOLhyphen"/>nefit that comes by
+keeping it. At that I be<g ref="char:EOLhyphen"/>gan, and with that I will conclude. This leſ<g ref="char:EOLhyphen"/>ſon
+was ſet us of purpoſe by the Apoſtle to ſe<g ref="char:EOLhyphen"/>cond and enforce the other
+of Peace and Qui<g ref="char:EOLhyphen"/>et. The beſt way to be <hi>quiet</hi> with others, is to be
+buſie with our ſelves. It is the natural and genuine effect of it. All
+diſcord and diſſenti<g ref="char:EOLhyphen"/>on muſt be between two, either perſons or
+parties; and that which commonly kindles the fire, is envy, or ſome
+ſuppoſed injury; now he that intends his own buſineſs only, can give no
+occaſion to others, of either envy or complaint; and ſo in recompence of
+keeping to<pb n="36" facs="tcp:97328:20" rendition="simple:additions"/>his own buſineſs, he ſhall quietly
+ſit under his own Vine, and under his own Fig tree; he ſhall have own for
+own.</p>
+               <p>
+                  <hi>Laſtly,</hi> Beſides this outward quiet with o<g ref="char:EOLhyphen"/>thers, it
+will produce another within us, the <hi>quiet</hi> and <hi>tranquillity of the
+Conſcience,</hi> without which, outward peace may prove to ſome but a quiet
+paſſage here, to eternal miſery hereaf<g ref="char:EOLhyphen"/>ter. But this makes it a thorough
+quiet, both ſides alike, within and without; for it layes thoſe buſie,
+unſatisfied thoughts within us, which otherwiſe give<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> trouble both to our ſelves and others: That when we
+ſee not, or think we ſee not all things ſo well carried in the Church and
+Government, as we could wiſh; yet having gone as far to mend it, as the
+<hi>line</hi> of our own buſineſs will reach, and the fartheſt end of
+that is, having peaceably mov'd for it, and heartily pray'd for it, we may with
+a ſafe and quiet Conſcience, leave the reſt to God, and thoſe to whom
+he hath committed that Care and Charge, whoſe pro<g ref="char:EOLhyphen"/>per buſineſs it is. And
+as many as walk ac<g ref="char:EOLhyphen"/>cording to this Rule, Peace be on them, and Mercy from the
+God of Peace and Mercy; To whom be all honour, glory and praiſe, for ever.
+<hi>Amen.</hi>
+               </p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
